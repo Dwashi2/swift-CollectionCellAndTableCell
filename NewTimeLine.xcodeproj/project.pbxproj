@@ -13,6 +13,13 @@
 		5637EE1E26A63509000C89B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5637EE1C26A63509000C89B2 /* Main.storyboard */; };
 		5637EE2026A6350C000C89B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5637EE1F26A6350C000C89B2 /* Assets.xcassets */; };
 		5637EE2326A6350C000C89B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5637EE2126A6350C000C89B2 /* LaunchScreen.storyboard */; };
+		5637EE2D26A6361A000C89B2 /* HorizontalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5637EE2B26A6361A000C89B2 /* HorizontalTableViewCell.swift */; };
+		5637EE2E26A6361A000C89B2 /* HorizontalTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5637EE2C26A6361A000C89B2 /* HorizontalTableViewCell.xib */; };
+		5637EE3226A6378B000C89B2 /* CircleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5637EE3026A6378B000C89B2 /* CircleCollectionViewCell.swift */; };
+		5637EE3326A6378B000C89B2 /* CircleCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5637EE3126A6378B000C89B2 /* CircleCollectionViewCell.xib */; };
+		5637EE3626A63EA2000C89B2 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5637EE3526A63EA2000C89B2 /* Character.swift */; };
+		5637EE3A26A64686000C89B2 /* CardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5637EE3826A64686000C89B2 /* CardTableViewCell.swift */; };
+		5637EE3B26A64686000C89B2 /* CardTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5637EE3926A64686000C89B2 /* CardTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		5637EE1F26A6350C000C89B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5637EE2226A6350C000C89B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5637EE2426A6350C000C89B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5637EE2B26A6361A000C89B2 /* HorizontalTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalTableViewCell.swift; sourceTree = "<group>"; };
+		5637EE2C26A6361A000C89B2 /* HorizontalTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HorizontalTableViewCell.xib; sourceTree = "<group>"; };
+		5637EE3026A6378B000C89B2 /* CircleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleCollectionViewCell.swift; sourceTree = "<group>"; };
+		5637EE3126A6378B000C89B2 /* CircleCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CircleCollectionViewCell.xib; sourceTree = "<group>"; };
+		5637EE3526A63EA2000C89B2 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		5637EE3826A64686000C89B2 /* CardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardTableViewCell.swift; sourceTree = "<group>"; };
+		5637EE3926A64686000C89B2 /* CardTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +74,14 @@
 				5637EE1826A63509000C89B2 /* SceneDelegate.swift */,
 				5637EE1A26A63509000C89B2 /* ViewController.swift */,
 				5637EE1C26A63509000C89B2 /* Main.storyboard */,
+				5637EE3026A6378B000C89B2 /* CircleCollectionViewCell.swift */,
+				5637EE3826A64686000C89B2 /* CardTableViewCell.swift */,
+				5637EE3926A64686000C89B2 /* CardTableViewCell.xib */,
+				5637EE3126A6378B000C89B2 /* CircleCollectionViewCell.xib */,
+				5637EE2B26A6361A000C89B2 /* HorizontalTableViewCell.swift */,
+				5637EE2C26A6361A000C89B2 /* HorizontalTableViewCell.xib */,
 				5637EE1F26A6350C000C89B2 /* Assets.xcassets */,
+				5637EE3526A63EA2000C89B2 /* Character.swift */,
 				5637EE2126A6350C000C89B2 /* LaunchScreen.storyboard */,
 				5637EE2426A6350C000C89B2 /* Info.plist */,
 			);
@@ -125,8 +146,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5637EE2326A6350C000C89B2 /* LaunchScreen.storyboard in Resources */,
+				5637EE2E26A6361A000C89B2 /* HorizontalTableViewCell.xib in Resources */,
 				5637EE2026A6350C000C89B2 /* Assets.xcassets in Resources */,
 				5637EE1E26A63509000C89B2 /* Main.storyboard in Resources */,
+				5637EE3326A6378B000C89B2 /* CircleCollectionViewCell.xib in Resources */,
+				5637EE3B26A64686000C89B2 /* CardTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +162,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5637EE1B26A63509000C89B2 /* ViewController.swift in Sources */,
+				5637EE3226A6378B000C89B2 /* CircleCollectionViewCell.swift in Sources */,
+				5637EE2D26A6361A000C89B2 /* HorizontalTableViewCell.swift in Sources */,
+				5637EE3626A63EA2000C89B2 /* Character.swift in Sources */,
 				5637EE1726A63509000C89B2 /* AppDelegate.swift in Sources */,
 				5637EE1926A63509000C89B2 /* SceneDelegate.swift in Sources */,
+				5637EE3A26A64686000C89B2 /* CardTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
