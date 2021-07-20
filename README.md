@@ -31,20 +31,17 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 <p float="left">
-  <img src="https://github.com/Dwashi2/swift-CardApp/blob/main/1.png" width="248">
-  <img src="https://github.com/Dwashi2/swift-CardApp/blob/main/2.png" width="248">
+  <img src="https://github.com/Dwashi2/swift-CollectionCellAndTableCell/blob/main/1.png" width="248">
 </p>
  
  
-
-
-It's a simple app, only to study Navigation Controller
+It's a simple app, only to study Navigation Controller and TableView
 
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Open the file CardApp.xcodeproj 
+Open the file NewTimeLine.xcodeproj 
 
 ### Prerequisites
 
